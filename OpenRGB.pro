@@ -146,6 +146,7 @@ HEADERS +=                                                              \
     Controllers/SteelSeriesController/SteelSeriesSiberiaController.h    \
     Controllers/ThermaltakeRiingController/ThermaltakeRiingController.h \
     FanController/FanController.h                                       \
+    FanController/FanController_CorsairCommander.h                      \
     FanController/FanController_ThermaltakeRiing.h                      \
     RGBController/RGBController.h                                       \
     RGBController/RGBController_AMDWraithPrism.h                        \
@@ -286,6 +287,7 @@ SOURCES +=                                                              \
     Controllers/SteelSeriesController/SteelSeriesControllerDetect.cpp   \
     Controllers/ThermaltakeRiingController/ThermaltakeRiingController.cpp \
     Controllers/ThermaltakeRiingController/ThermaltakeRiingControllerDetect.cpp \
+    FanController/FanController_CorsairCommander.cpp                    \
     FanController/FanController_ThermaltakeRiing.cpp                    \
     RGBController/RGBController.cpp                                     \
     RGBController/E131ControllerDetect.cpp                              \
